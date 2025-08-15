@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  /* Your existing colors */
+  --color-king: #100111;
+  --color-backColor: #ffd230;
+
+  /* Text sizes */
+  --text-size-heading: 2rem; /* ~32px */
+  --text-size-body: 1rem; /* ~16px */
+
+  /* Padding sizes */
+  --spacing-card: 1.5rem; /* ~24px */
+  --spacing-button: 0.75rem 1.5rem; /* ~12px top/bottom, 24px left/right */
+}
