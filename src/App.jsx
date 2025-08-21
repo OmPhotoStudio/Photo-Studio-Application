@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.css";
+import Services from "./components/Services";
 
 export default function App() {
   return (
@@ -54,6 +55,9 @@ export default function App() {
             alt="Camera"
             className="w-56 "
           />
+
+          <Services/>
+
         </div>
 
       </main>
