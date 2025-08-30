@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Home = () => {
+const Temp = () => {
   return (
   
     <div className="relative h-screen w-full grid grid-cols-1 grid-rows-1 p-2">
@@ -33,4 +33,4 @@ const Home = () => {
   );
 }
 
-export default Home
+export default Temp

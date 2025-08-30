@@ -3,7 +3,7 @@
 @theme {
   /* Your existing colors */
   --color-king: #100111;
-  --color-backColor: #ffd230;
+  --color-gray-background: #f1f2f3;
 
   /* Text sizes */
   --text-size-heading: 2rem; /* ~32px */
