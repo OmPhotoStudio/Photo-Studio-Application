@@ -6,9 +6,9 @@ const Home = () => {
     <div className="relative h-screen w-full grid grid-cols-1 grid-rows-1 p-2">
       <div className="bg-gray-background w-[500px] h-full col-start-1 row-start-1 justify-self-center">
       </div>
-      <div className="col-start-1 row-start-1 z-10 flex flex-col items-center text-center mt-12 ">
+      <div className="col-start-1 row-start-1 z-10 flex flex-col items-center text-center mt-16 ">
 
-         <h1 className="text-3xl md:text-4xl font-extrabold leading-tight">
+        <h1 className="text-5xl md:text-6xl font-stretch-200% font-normal leading-tight">
           Where creative process <br /> happens
         </h1>
         <p className="text-gray-500 mt-3 max-w-md text-sm">
@@ -25,7 +25,7 @@ const Home = () => {
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRlkNMgDl4MS6eCHD0tOKPhrtIhur1YNykO3OB6Vgwpkl2LhEE"
             alt="Camera"
-            className="w-56"
+            className="w-80"
           />
         </div>
       </div>
@@ -33,4 +33,4 @@ const Home = () => {
   );
 }
 
-export default Home
+export default Home;

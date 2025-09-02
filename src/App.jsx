@@ -1,12 +1,17 @@
-import React from "react";
-import Home from "./components/Home";
-import Navbar from "./components/Navbar";
+// src/App.jsx
+import { Routes, Route } from "react-router-dom";
+import MainLayout from "./Layout/MainLayout";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+
 
 export default function App() {
   return (
-    <div>
-      <Navbar/>
-      <Home/>
-    </div>
+    <Routes>
+      <Route path="/" element={<MainLayout />}>
+        <Route index element={<Home />} />
+        <Route path="about" element={<About />} />
+      </Route>
+    </Routes>
   );
 }
